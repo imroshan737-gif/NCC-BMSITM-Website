@@ -653,3 +653,9 @@ body::before {
     width: 20px;
   }
 }
+
+.nav-link-two-line {
+  display: inline-block;
+  text-align: center;
+  line-height: 1.2;
+}
