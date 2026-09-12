@@ -248,7 +248,7 @@
         if (items && items.length) {
           return items.map((item) => ({
             src: item.src,
-            title: item.title || item.alt || "NCC BMSIT&M",
+            title: item.title || item.alt || "NCC BMSITM",
             category: normalizeCategory(item.category)
           }));
         }

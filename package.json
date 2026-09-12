@@ -1,0 +1,24 @@
+{
+  "name": "ncc-bmsitm-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "live-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imroshan737-gif/NCC-BMSITM-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/imroshan737-gif/NCC-BMSITM-Website/issues"
+  },
+  "homepage": "https://github.com/imroshan737-gif/NCC-BMSITM-Website#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
