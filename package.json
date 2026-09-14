@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
   "dev": "live-server . --ignore=node_modules"
-}
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imroshan737-gif/NCC-BMSITM-Website.git"
