@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Achievements | NCC BMSITM</title>
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   <meta name="description" content="Year-wise achievements, national camp selections, commendations, and honours earned by NCC BMSITM cadets." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,6 +13,52 @@
   <link rel="stylesheet" href="/css/navbar-overrides.css" />
   <link rel="stylesheet" href="/navbar-polish.css" />
   <link rel="stylesheet" href="/theme-overrides.css" />
+  <style id="hero-fullscreen">
+    :root { --header-h: 80px; }
+    .page-hero {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      min-height: calc(100vh - var(--header-h)) !important;
+      min-height: calc(100svh - var(--header-h)) !important;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      overflow: hidden;
+    }
+    .page-hero .hero-media {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      border-radius: 0;
+      z-index: 0;
+    }
+    .page-hero .hero-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    .page-hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.15));
+      z-index: 1;
+      pointer-events: none;
+    }
+    .page-hero .container {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+    }
+    @media (max-width: 768px) {
+      :root { --header-h: 64px; }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -75,7 +121,6 @@
         <a href="#aitsc">AITSC</a>
         <a href="#rdc">RDC</a>
         <a href="#national-camps">National Camps</a>
-        <a href="#alumni-forces">Alumni in Forces</a>
       </div>
     </div>
 
@@ -117,7 +162,14 @@
         <h2 class="heading-serif">All India Thal Sainik Camp (AITSC)</h2>
         <div class="rule" style="margin-left: 0;"></div>
         <div class="event-grid">
-          <article class="card reveal aitsc-card" data-aitsc-year="2025">
+          <article class="card reveal aitsc-card" data-title="AITSC 2025" data-images='[
+            {"src": "assets/images/8.jpg", "alt": "AITSC 2025 Photo 1"},
+            {"src": "assets/images/9.jpg", "alt": "AITSC 2025 Photo 2"},
+            {"src": "assets/images/10.jpg", "alt": "AITSC 2025 Photo 3"},
+            {"src": "assets/images/11.jpg", "alt": "AITSC 2025 Photo 4"},
+            {"src": "assets/images/12.jpg", "alt": "AITSC 2025 Photo 5"},
+            {"src": "assets/images/13.jpg", "alt": "AITSC 2025 Photo 6"}
+          ]' style="cursor: pointer;">
             <h3>2025</h3>
             <ul class="list">
               <li>JUO Varsha B &mdash; Silver Medal in Map Reading; SW team 1st Overall Championship.</li>
@@ -127,18 +179,24 @@
               <li>LCPL Aatif Mohideen &mdash; 3rd in Judging Distance.</li>
               <li>LCPL Bhargava Krishna M &mdash; 3rd in Judging Distance.</li>
             </ul>
-            <p class="gallery-hint">Click to view photos &rarr;</p>
+            <p class="gallery-hint" style="color: var(--ncc-gold, #c5a059); font-weight: 600; margin-top: 12px;">Click to view photos &rarr;</p>
           </article>
-          <article class="card reveal aitsc-card" data-aitsc-year="2024">
+
+          <article class="card reveal aitsc-card" data-title="AITSC 2024" data-images='[
+            {"src": "assets/images/3.jpg", "alt": "AITSC 2024 Photo 1"}
+          ]' style="cursor: pointer;">
             <h3>2024</h3>
             <p>CSUO Varadaraj Prabhu G G &mdash; AITSC 2024: 3rd Overall Championship (SD) and DDG Commendation.</p>
-            <p class="gallery-hint">Click to view photos &rarr;</p>
+            <p class="gallery-hint" style="color: var(--ncc-gold, #c5a059); font-weight: 600; margin-top: 12px;">Click to view photos &rarr;</p>
           </article>
-          <article class="card reveal aitsc-card" data-aitsc-year="2023">
+
+          <article class="card reveal aitsc-card" data-title="AITSC 2023" data-images='[
+            {"src": "assets/images/2.jpg", "alt": "AITSC 2023 Photo 1"}
+          ]' style="cursor: pointer;">
             <h3>2023</h3>
             <p>CSUO Pooja P &mdash; AITSC 2023 representation for NCC BMSITM.</p>
             <p>Map Reading Bronze; Line Area 1st and Culturals 2nd (SW), with DDG Commendation.</p>
-            <p class="gallery-hint">Click to view photos &rarr;</p>
+            <p class="gallery-hint" style="color: var(--ncc-gold, #c5a059); font-weight: 600; margin-top: 12px;">Click to view photos &rarr;</p>
           </article>
         </div>
       </div>
@@ -149,23 +207,29 @@
         <h2 class="heading-serif">Republic Day Camp (RDC)</h2>
         <div class="rule" style="margin-left: 0;"></div>
         <div class="event-grid">
-          <article class="card reveal">
+          <article class="card reveal rdc-card" data-title="RDC 2025" data-images='[
+            {"src": "assets/images/sagar.png", "alt": "BJUO Sagar B S - RDC 2025"},
+            {"src": "assets/images/prajwal.png", "alt": "BJUO Prajwal V Dev - RDC 2025"}
+          ]' style="cursor: pointer;">
             <h3>2025</h3>
             <ul class="list">
               <li>BJUO Sagar B S &mdash; RDC 2025: DG Felicitation and PM Interaction.</li>
               <li>BJUO Prajwal V Dev &mdash; Idea &amp; Innovation (MITRA-D): DG Felicitation and GC Prize Distribution.</li>
             </ul>
+            <p class="gallery-hint" style="color: var(--ncc-gold, #c5a059); font-weight: 600; margin-top: 12px;">Click to view photos &rarr;</p>
           </article>
-          <article class="card reveal">
+
+          <article class="card reveal rdc-card" data-title="RDC 2021" data-images='[
+            {"src": "assets/images/deeksha.png", "alt": "CSUO Deeksha Sethi - RDC 2021"}
+          ]' style="cursor: pointer;">
             <h3>2021</h3>
             <p>CSUO Deeksha Sethi &mdash; Rajpath Parade, Silver Medal, All India Best Cadet.</p>
+            <p class="gallery-hint" style="color: var(--ncc-gold, #c5a059); font-weight: 600; margin-top: 12px;">Click to view photos &rarr;</p>
           </article>
         </div>
       </div>
     </section>
 
-
-    
     <section id="national-camps" class="section section--white">
       <div class="container">
         <h2 class="heading-serif">National Camps</h2>
@@ -198,7 +262,6 @@
         </div>
       </div>
     </section>
-
 
     <section class="section section--cream">
       <div class="container">
@@ -388,5 +451,3 @@
   <script defer src="/main.js"></script>
 </body>
 </html>
-
-

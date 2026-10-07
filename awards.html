@@ -1,31 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Awards | NCC BMSITM</title>
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-  <meta name="description" content="Commendations, medallions, and awards earned by NCC BMSITM cadets and officers." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=EB+Garamond:wght@500;600&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css" />
-  <link rel="stylesheet" href="/css/navbar-overrides.css" />
-  <link rel="stylesheet" href="/navbar-polish.css" />
-  <link rel="stylesheet" href="/theme-overrides.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commendations &amp; Awards | NCC BMSIT&amp;M</title>
+  <link rel="icon" type="image/jpeg" href="/assets/images/favicon.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=EB+Garamond:wght@500;600&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/navbar-overrides.css">
+  <link rel="stylesheet" href="/navbar-polish.css">
+  <link rel="stylesheet" href="/theme-overrides.css?v=2">
+  <style id="hero-fullscreen">
+    :root { --header-h: 80px; }
+    .page-hero {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      min-height: calc(100vh - var(--header-h)) !important;
+      min-height: calc(100svh - var(--header-h)) !important;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      overflow: hidden;
+    }
+    .page-hero .hero-media {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      border-radius: 0;
+      z-index: 0;
+    }
+    .page-hero .hero-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    .page-hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.15));
+      z-index: 1;
+      pointer-events: none;
+    }
+    .page-hero .container {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+    }
+    @media (max-width: 768px) {
+      :root { --header-h: 64px; }
+    }
+  </style>
+  <style>
+    /* Lightbox modal & arrow fixes to match your site's style */
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 9999;
+      justify-content: center;
+      align-items: center;
+    }
+    .lightbox.active, .lightbox.open {
+      display: flex;
+    }
+    .lightbox-image {
+      max-width: 600px;
+      max-height: 80vh;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 4px;
+    }
+    .lightbox-close,
+    .lightbox-prev,
+    .lightbox-next {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.15) !important;
+      color: #ffffff !important;
+      border: 2px solid rgba(255, 255, 255, 0.8) !important;
+      font-size: 22px !important;
+      width: 45px !important;
+      height: 45px !important;
+      display: flex;
+      align-items: center !important;
+      justify-content: center !important;
+      border-radius: 50% !important;
+      cursor: pointer;
+      z-index: 10000;
+      transition: background 0.2s;
+    }
+    .lightbox-close:hover,
+    .lightbox-prev:hover,
+    .lightbox-next:hover {
+      background: rgba(255, 255, 255, 0.3) !important;
+    }
+    .lightbox-close {
+      top: 20px;
+      right: 25px;
+    }
+    .lightbox-prev {
+      left: 25px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .lightbox-next {
+      right: 25px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  </style>
 </head>
 <body>
+
+  <!-- Site Header / Navigation -->
   <header class="site-header">
     <div class="container nav-container">
       <a class="brand" href="/index.html">
         <span class="brand-logos">
           <picture class="img-frame logo-frame">
-            <img src="/assets/logos/ncc-logo.png" alt="NCC Emblem" data-placeholder="true" loading="lazy" />
+            <img src="/assets/logos/ncc-logo.png" alt="NCC Emblem" data-placeholder="true" loading="lazy">
             <div class="img-placeholder">NCC Logo</div>
           </picture>
           <picture class="img-frame logo-frame">
-            <img src="/assets/logos/bmsit-logo.png" alt="BMSIT Logo" data-placeholder="true" loading="lazy" />
+            <img src="/assets/logos/bmsit-logo.png" alt="BMSIT Logo" data-placeholder="true" loading="lazy">
             <div class="img-placeholder">BMSIT Logo</div>
           </picture>
         </span>
@@ -57,16 +166,18 @@
     </div>
   </header>
 
+  <!-- Main Content -->
   <main>
+    <!-- Page Hero Banner with Collage -->
     <section class="page-hero">
       <picture class="img-frame hero-media">
-        <img src="/assets/images/achievements-hero.jpg" alt="Cadets at an award ceremony" data-placeholder="true" loading="lazy" />
+        <img src="/assets/images/heroaward.jpeg" alt="NCC BMSITM Awards Hero" data-placeholder="true" loading="lazy" />
         <div class="img-placeholder">AWARDS_HERO_IMAGE_PLACEHOLDER</div>
       </picture>
       <div class="container">
         <p class="breadcrumb">Home &gt; Awards</p>
-        <h1>Awards</h1>
-        <p class="section-subtitle" style="color: rgba(255, 255, 255, 0.75); text-align: left; margin: 12px 0 0;">Commendations &middot; Medallions &middot; Recognition</p>
+        <h1>Commendations &amp; Awards</h1>
+        <p class="section-subtitle" style="color: rgba(255, 255, 255, 0.75); text-align: left; margin: 12px 0 0;">Recognizing excellence, leadership, and dedication.</p>
       </div>
     </section>
 
@@ -74,14 +185,19 @@
       <div class="container">
         <h2 class="heading-serif">Commendations &amp; Awards</h2>
         <div class="rule" style="margin-left: 0;"></div>
-                <div class="event-grid">
-          <article class="card reveal">
+        <div class="event-grid">
+          
+          <!-- DG NCC Medallion -->
+          <article class="card reveal award-card" data-images='["assets/images/rishab.jpeg"]'>
             <h3>DG NCC Medallion</h3>
             <ul class="list">
               <li>CSUO Rishab S Rokhade (2022)</li>
             </ul>
+            <p class="gallery-hint" style="cursor: pointer; margin-top: 15px; font-size: 0.9rem; color: var(--ncc-gold, #c5a059);">&rarr; Click to view photos</p>
           </article>
-          <article class="card reveal">
+
+          <!-- DDG Commendation -->
+          <article class="card reveal award-card" data-images='["assets/images/rani_commendation.png", "assets/images/rishab_c.png", "assets/images/pooja_c.jpeg", "assets/images/varda.png", "assets/images/sagar_c.png", "assets/images/ananya.jpeg", "assets/images/2.jpg"]'>
             <h3>DDG Commendation</h3>
             <ul class="list">
               <li>Lt. Rani Mysore Srinivas (2022)</li>
@@ -93,20 +209,26 @@
               <li>BQMS Ananya Gupta (2026)</li>
               <li>CPL Angom Lamyanba Meitei (2026)</li>
             </ul>
+            <p class="gallery-hint" style="cursor: pointer; margin-top: 15px; font-size: 0.9rem; color: var(--ncc-gold, #c5a059);">&rarr; Click to view photos</p>
           </article>
-          <article class="card reveal">
+
+          <!-- Chief Minister's Commendation -->
+          <article class="card reveal award-card" data-images='["assets/images/3.jpg","assets/images/6.jpg"]'>
             <h3>Chief Minister's Commendation</h3>
             <ul class="list">
               <li>CSUO Deeksha Sethi (2021)</li>
               <li>Lt. Rani M. S. (2026)</li>
               <li>JUO Varsha B (2026)</li>
             </ul>
+            <p class="gallery-hint" style="cursor: pointer; margin-top: 15px; font-size: 0.9rem; color: var(--ncc-gold, #c5a059);">&rarr; Click to view photos</p>
           </article>
+
         </div>
       </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="footer">
     <div class="container footer-grid">
       <div>
@@ -136,7 +258,7 @@
           <a href="/timeline.html">Timeline</a>
           <a href="/activities.html">Activities</a>
           <a href="/join.html">Join NCC</a>
-          <a href="/alumni.html">Alumni</a>
+          <a href="/alumni.html">Alumni in Forces</a>
           <a href="/cadets-corner.html">Cadet's Corner</a>
           <a href="/contact.html">Contact</a>
         </div>
@@ -153,6 +275,14 @@
     </div>
     <div class="footer-bottom">&copy; 2025-26 NCC BMSITM &middot; 39/17 NCC Company &middot; 39 Karnataka Battalion</div>
   </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox">
+    <button class="lightbox-close" type="button" aria-label="Close gallery">&times;</button>
+    <button class="lightbox-prev" type="button" aria-label="Previous photo">&larr;</button>
+    <img class="lightbox-image" src="" alt="" />
+    <button class="lightbox-next" type="button" aria-label="Next photo">&rarr;</button>
+  </div>
 
   <button class="scroll-top" type="button" aria-label="Scroll to top">&uarr;</button>
   <script defer src="/main.js"></script>

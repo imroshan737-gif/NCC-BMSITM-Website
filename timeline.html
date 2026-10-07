@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Timeline | NCC BMSITM</title>
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   <meta name="description" content="Timeline of NCC BMSITM from establishment in 2016 to national-level camps and commendations." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,6 +13,52 @@
   <link rel="stylesheet" href="/css/navbar-overrides.css" />
   <link rel="stylesheet" href="/navbar-polish.css" />
   <link rel="stylesheet" href="/theme-overrides.css" />
+  <style id="hero-fullscreen">
+    :root { --header-h: 80px; }
+    .page-hero {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      min-height: calc(100vh - var(--header-h)) !important;
+      min-height: calc(100svh - var(--header-h)) !important;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      overflow: hidden;
+    }
+    .page-hero .hero-media {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      border-radius: 0;
+      z-index: 0;
+    }
+    .page-hero .hero-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    .page-hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.15));
+      z-index: 1;
+      pointer-events: none;
+    }
+    .page-hero .container {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+    }
+    @media (max-width: 768px) {
+      :root { --header-h: 64px; }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">

@@ -1,595 +1,233 @@
-{
-  "last_updated": "2026-04-08T10:10:36.691Z",
-  "total_events": 54,
-  "events": [
-    {
-      "event": "C Certificate Exam 2026",
-      "slug": "c-certificate-exam-2026",
-      "images": [
-        "/assets/activities/c-certificate-exam-2026/01.jpg",
-        "/assets/activities/c-certificate-exam-2026/02.jpg",
-        "/assets/activities/c-certificate-exam-2026/03.jpg",
-        "/assets/activities/c-certificate-exam-2026/04.jpg"
-      ],
-      "modified": 1775565741069.3867
-    },
-    {
-      "event": "CM Commendation 2026",
-      "slug": "cm-commendation-2026",
-      "images": [
-        "/assets/activities/cm-commendation-2026/01.jpg",
-        "/assets/activities/cm-commendation-2026/02.jpg",
-        "/assets/activities/cm-commendation-2026/03.jpg"
-      ],
-      "modified": 1775565741085.216
-    },
-    {
-      "event": "B Certificate Exam 2026",
-      "slug": "b-certificate-exam-2026",
-      "images": [
-        "/assets/activities/b-certificate-exam-2026/01.webp",
-        "/assets/activities/b-certificate-exam-2026/02.webp",
-        "/assets/activities/b-certificate-exam-2026/03.webp",
-        "/assets/activities/b-certificate-exam-2026/04.webp"
-      ],
-      "modified": 1775565741116.63
-    },
-    {
-      "event": "GC Visit & Annual Review",
-      "slug": "gc-visit-and-annual-review",
-      "images": [
-        "/assets/activities/gc-visit-and-annual-review/01.webp",
-        "/assets/activities/gc-visit-and-annual-review/02.webp",
-        "/assets/activities/gc-visit-and-annual-review/03.webp",
-        "/assets/activities/gc-visit-and-annual-review/04.webp"
-      ],
-      "modified": 1775565741116.63
-    },
-    {
-      "event": "DDG Commendation 2026",
-      "slug": "ddg-commendation-2026",
-      "images": [
-        "/assets/activities/ddg-commendation-2026/01.jpg",
-        "/assets/activities/ddg-commendation-2026/02.jpg",
-        "/assets/activities/ddg-commendation-2026/03.jpg"
-      ],
-      "modified": 1775565877022.3662
-    },
-    {
-      "event": "Statue Cleaning 2026",
-      "slug": "statue-cleaning-2026",
-      "images": [
-        "/assets/activities/statue-cleaning-2026/01.jpg",
-        "/assets/activities/statue-cleaning-2026/02.jpg",
-        "/assets/activities/statue-cleaning-2026/03.jpg"
-      ],
-      "modified": 1775565877054.1274
-    },
-    {
-      "event": "Trek to Akkayama 2026",
-      "slug": "trek-to-akkayama-2026",
-      "images": [
-        "/assets/activities/trek-to-akkayama-2026/01.jpg",
-        "/assets/activities/trek-to-akkayama-2026/02.jpg"
-      ],
-      "modified": 1775566103111.1438
-    },
-    {
-      "event": "Pre RD Camp 2026",
-      "slug": "pre-rd-camp-2026",
-      "images": [
-        "/assets/activities/pre-rd-camp-2026/01.jpg",
-        "/assets/activities/pre-rd-camp-2026/02.jpg",
-        "/assets/activities/pre-rd-camp-2026/03.jpg",
-        "/assets/activities/pre-rd-camp-2026/04.jpg"
-      ],
-      "modified": 1775566103172.9712
-    },
-    {
-      "event": "Republic Day Parade 2026",
-      "slug": "republic-day-parade-2026",
-      "images": [
-        "/assets/activities/republic-day-parade-2026/01.jpg",
-        "/assets/activities/republic-day-parade-2026/02.jpg",
-        "/assets/activities/republic-day-parade-2026/03.jpg",
-        "/assets/activities/republic-day-parade-2026/04.jpg",
-        "/assets/activities/republic-day-parade-2026/05.jpg",
-        "/assets/activities/republic-day-parade-2026/06.jpg",
-        "/assets/activities/republic-day-parade-2026/07.jpg",
-        "/assets/activities/republic-day-parade-2026/08.jpg"
-      ],
-      "modified": 1775566103220.7253
-    },
-    {
-      "event": "Pulse Polio Drive 2026",
-      "slug": "pulse-polio-drive-2026",
-      "images": [
-        "/assets/activities/pulse-polio-drive-2026/01.jpg",
-        "/assets/activities/pulse-polio-drive-2026/02.jpg",
-        "/assets/activities/pulse-polio-drive-2026/03.jpg"
-      ],
-      "modified": 1775566103223.6306
-    },
-    {
-      "event": "Clothes Donation Drive 2025",
-      "slug": "clothes-donation-drive-2025",
-      "images": [
-        "/assets/activities/clothes-donation-drive-2025/01.jpg",
-        "/assets/activities/clothes-donation-drive-2025/02.jpg",
-        "/assets/activities/clothes-donation-drive-2025/03.jpg"
-      ],
-      "modified": 1775566443227.932
-    },
-    {
-      "event": "Rank Pipping Ceremony 2025",
-      "slug": "rank-pipping-ceremony-2025",
-      "images": [
-        "/assets/activities/rank-pipping-ceremony-2025/01.jpg",
-        "/assets/activities/rank-pipping-ceremony-2025/02.jpg",
-        "/assets/activities/rank-pipping-ceremony-2025/03.jpg"
-      ],
-      "modified": 1775566443271.1096
-    },
-    {
-      "event": "Armed Forces Flag Day Event 2025",
-      "slug": "armed-forces-flag-day-event-2025",
-      "images": [
-        "/assets/activities/armed-forces-flag-day-event-2025/01.jpg",
-        "/assets/activities/armed-forces-flag-day-event-2025/02.jpg"
-      ],
-      "modified": 1775566443283.194
-    },
-    {
-      "event": "78th Raising Day of National Cadet Corps",
-      "slug": "78th-raising-day-of-national-cadet-corps",
-      "images": [
-        "/assets/activities/78th-raising-day-of-national-cadet-corps/01.jpg"
-      ],
-      "modified": 1775567038761.7068
-    },
-    {
-      "event": "Pre IGC RDC 2025",
-      "slug": "pre-igc-rdc-2025",
-      "images": [
-        "/assets/activities/pre-igc-rdc-2025/01.jpg",
-        "/assets/activities/pre-igc-rdc-2025/02.jpg",
-        "/assets/activities/pre-igc-rdc-2025/03.jpg"
-      ],
-      "modified": 1775567038820.8574
-    },
-    {
-      "event": "NCC Enrollment for the year 2025-26",
-      "slug": "ncc-enrollment-for-the-year-2025-26",
-      "images": [
-        "/assets/activities/ncc-enrollment-for-the-year-2025-26/01.jpg",
-        "/assets/activities/ncc-enrollment-for-the-year-2025-26/02.jpg",
-        "/assets/activities/ncc-enrollment-for-the-year-2025-26/03.jpg"
-      ],
-      "modified": 1775567038834.0415
-    },
-    {
-      "event": "EBSB - 2025 (Indore)",
-      "slug": "ebsb-2025-indore",
-      "images": [
-        "/assets/activities/ebsb-2025-indore/01.jpg",
-        "/assets/activities/ebsb-2025-indore/02.jpg",
-        "/assets/activities/ebsb-2025-indore/03.jpg"
-      ],
-      "modified": 1775567038845.7295
-    },
-    {
-      "event": "Tug Of War - 150 years of vande Mataram",
-      "slug": "tug-of-war-150-years-of-vande-mataram",
-      "images": [
-        "/assets/activities/tug-of-war-150-years-of-vande-mataram/01.jpg",
-        "/assets/activities/tug-of-war-150-years-of-vande-mataram/02.jpg",
-        "/assets/activities/tug-of-war-150-years-of-vande-mataram/03.jpg"
-      ],
-      "modified": 1775567038885.5083
-    },
-    {
-      "event": "Indian Air Force Day - Quiz Competition",
-      "slug": "indian-air-force-day-quiz-competition",
-      "images": [
-        "/assets/activities/indian-air-force-day-quiz-competition/01.jpg",
-        "/assets/activities/indian-air-force-day-quiz-competition/02.jpg",
-        "/assets/activities/indian-air-force-day-quiz-competition/03.jpg"
-      ],
-      "modified": 1775567038894.1409
-    },
-    {
-      "event": "COC Drone Training Camp 2025",
-      "slug": "coc-drone-training-camp-2025",
-      "images": [
-        "/assets/activities/coc-drone-training-camp-2025/01.jpg",
-        "/assets/activities/coc-drone-training-camp-2025/02.jpg",
-        "/assets/activities/coc-drone-training-camp-2025/03.jpg",
-        "/assets/activities/coc-drone-training-camp-2025/04.jpg",
-        "/assets/activities/coc-drone-training-camp-2025/05.jpg"
-      ],
-      "modified": 1775567038919.2732
-    },
-    {
-      "event": "Para Basic Camp 2025",
-      "slug": "para-basic-camp-2025",
-      "images": [
-        "/assets/activities/para-basic-camp-2025/01.jpg",
-        "/assets/activities/para-basic-camp-2025/02.jpg",
-        "/assets/activities/para-basic-camp-2025/03.jpg",
-        "/assets/activities/para-basic-camp-2025/04.jpg",
-        "/assets/activities/para-basic-camp-2025/05.jpg"
-      ],
-      "modified": 1775567361564.17
-    },
-    {
-      "event": "All India Thal Sainik Camp 2025",
-      "slug": "all-india-thal-sainik-camp-2025",
-      "images": [
-        "/assets/activities/all-india-thal-sainik-camp-2025/01.jpg",
-        "/assets/activities/all-india-thal-sainik-camp-2025/02.jpg",
-        "/assets/activities/all-india-thal-sainik-camp-2025/03.jpg",
-        "/assets/activities/all-india-thal-sainik-camp-2025/04.jpg",
-        "/assets/activities/all-india-thal-sainik-camp-2025/05.jpg",
-        "/assets/activities/all-india-thal-sainik-camp-2025/06.jpg",
-        "/assets/activities/all-india-thal-sainik-camp-2025/07.jpg",
-        "/assets/activities/all-india-thal-sainik-camp-2025/08.jpg"
-      ],
-      "modified": 1775567531774.0193
-    },
-    {
-      "event": "Batallion Achievers Felicitation - 2025",
-      "slug": "batallion-achievers-felicitation-2025",
-      "images": [
-        "/assets/activities/batallion-achievers-felicitation-2025/01.jpg",
-        "/assets/activities/batallion-achievers-felicitation-2025/02.jpg"
-      ],
-      "modified": 1775567532012.522
-    },
-    {
-      "event": "Pre TSC and TSC IGC - 2025",
-      "slug": "pre-tsc-and-tsc-igc-2025",
-      "images": [
-        "/assets/activities/pre-tsc-and-tsc-igc-2025/01.jpg",
-        "/assets/activities/pre-tsc-and-tsc-igc-2025/02.jpg",
-        "/assets/activities/pre-tsc-and-tsc-igc-2025/03.jpg",
-        "/assets/activities/pre-tsc-and-tsc-igc-2025/04.jpg",
-        "/assets/activities/pre-tsc-and-tsc-igc-2025/05.jpg",
-        "/assets/activities/pre-tsc-and-tsc-igc-2025/06.jpg",
-        "/assets/activities/pre-tsc-and-tsc-igc-2025/07.jpg"
-      ],
-      "modified": 1775567532076.175
-    },
-    {
-      "event": "National Space Day 2025",
-      "slug": "national-space-day-2025",
-      "images": [
-        "/assets/activities/national-space-day-2025/01.jpg",
-        "/assets/activities/national-space-day-2025/02.jpg",
-        "/assets/activities/national-space-day-2025/03.jpg",
-        "/assets/activities/national-space-day-2025/04.jpg",
-        "/assets/activities/national-space-day-2025/05.jpg",
-        "/assets/activities/national-space-day-2025/06.jpg"
-      ],
-      "modified": 1775567532091.4175
-    },
-    {
-      "event": "79th Independence Day - 2025",
-      "slug": "79th-independence-day-2025",
-      "images": [
-        "/assets/activities/79th-independence-day-2025/01.jpg",
-        "/assets/activities/79th-independence-day-2025/02.jpg",
-        "/assets/activities/79th-independence-day-2025/03.jpg",
-        "/assets/activities/79th-independence-day-2025/04.jpg",
-        "/assets/activities/79th-independence-day-2025/05.jpg"
-      ],
-      "modified": 1775567532105.5076
-    },
-    {
-      "event": "Kargil Vijay Diwas 2025",
-      "slug": "kargil-vijay-diwas-2025",
-      "images": [
-        "/assets/activities/kargil-vijay-diwas-2025/01.jpg",
-        "/assets/activities/kargil-vijay-diwas-2025/02.jpg",
-        "/assets/activities/kargil-vijay-diwas-2025/03.jpg"
-      ],
-      "modified": 1775567532107.266
-    },
-    {
-      "event": "Greenathon event - 2025",
-      "slug": "greenathon-event-2025",
-      "images": [
-        "/assets/activities/greenathon-event-2025/01.jpg",
-        "/assets/activities/greenathon-event-2025/02.jpg"
-      ],
-      "modified": 1775567532123.1814
-    },
-    {
-      "event": "Swacch Bharat 2025",
-      "slug": "swacch-bharat-2025",
-      "images": [
-        "/assets/activities/swacch-bharat-2025/01.jpg"
-      ],
-      "modified": 1775567908087.842
-    },
-    {
-      "event": "CATC - II 2025",
-      "slug": "catc-ii-2025",
-      "images": [
-        "/assets/activities/catc-ii-2025/01.jpg",
-        "/assets/activities/catc-ii-2025/02.jpg",
-        "/assets/activities/catc-ii-2025/03.jpg"
-      ],
-      "modified": 1775567908101.648
-    },
-    {
-      "event": "ECHS Volunteering 2025",
-      "slug": "echs-volunteering-2025",
-      "images": [
-        "/assets/activities/echs-volunteering-2025/01.jpg"
-      ],
-      "modified": 1775567908129.4749
-    },
-    {
-      "event": "International Yoga Day 2025",
-      "slug": "international-yoga-day-2025",
-      "images": [
-        "/assets/activities/international-yoga-day-2025/01.jpg",
-        "/assets/activities/international-yoga-day-2025/02.jpg",
-        "/assets/activities/international-yoga-day-2025/03.jpg",
-        "/assets/activities/international-yoga-day-2025/04.jpg",
-        "/assets/activities/international-yoga-day-2025/05.jpg"
-      ],
-      "modified": 1775568017323.5583
-    },
-    {
-      "event": "Conference with GC and Prize Distribution",
-      "slug": "conference-with-gc-and-prize-distribution",
-      "images": [
-        "/assets/activities/conference-with-gc-and-prize-distribution/01.jpg",
-        "/assets/activities/conference-with-gc-and-prize-distribution/02.jpg"
-      ],
-      "modified": 1775568017339.3645
-    },
-    {
-      "event": "Farewell for Batches 2021-24 and 2022-25",
-      "slug": "farewell-for-batches-2021-24-and-2022-25",
-      "images": [
-        "/assets/activities/farewell-for-batches-2021-24-and-2022-25/01.jpg",
-        "/assets/activities/farewell-for-batches-2021-24-and-2022-25/02.jpg",
-        "/assets/activities/farewell-for-batches-2021-24-and-2022-25/03.jpg",
-        "/assets/activities/farewell-for-batches-2021-24-and-2022-25/04.jpg",
-        "/assets/activities/farewell-for-batches-2021-24-and-2022-25/05.jpg",
-        "/assets/activities/farewell-for-batches-2021-24-and-2022-25/06.jpg"
-      ],
-      "modified": 1775568143247.784
-    },
-    {
-      "event": "Principal Appreciations",
-      "slug": "principal-appreciations",
-      "images": [
-        "/assets/activities/principal-appreciations/01.jpg",
-        "/assets/activities/principal-appreciations/02.jpg",
-        "/assets/activities/principal-appreciations/03.jpg",
-        "/assets/activities/principal-appreciations/04.jpg"
-      ],
-      "modified": 1775568323706.462
-    },
-    {
-      "event": "C Certificate Exam 2025",
-      "slug": "c-certificate-exam-2025",
-      "images": [
-        "/assets/activities/c-certificate-exam-2025/01.jpg",
-        "/assets/activities/c-certificate-exam-2025/02.jpg",
-        "/assets/activities/c-certificate-exam-2025/03.jpg",
-        "/assets/activities/c-certificate-exam-2025/04.jpg",
-        "/assets/activities/c-certificate-exam-2025/05.jpg"
-      ],
-      "modified": 1775568323764.391
-    },
-    {
-      "event": "B Certificate Exam 2025",
-      "slug": "b-certificate-exam-2025",
-      "images": [
-        "/assets/activities/b-certificate-exam-2025/01.jpg",
-        "/assets/activities/b-certificate-exam-2025/02.jpg",
-        "/assets/activities/b-certificate-exam-2025/03.jpg",
-        "/assets/activities/b-certificate-exam-2025/04.jpg"
-      ],
-      "modified": 1775568323780.395
-    },
-    {
-      "event": "Aero India 2025",
-      "slug": "aero-india-2025",
-      "images": [
-        "/assets/activities/aero-india-2025/01.jpg",
-        "/assets/activities/aero-india-2025/02.jpg",
-        "/assets/activities/aero-india-2025/03.jpg",
-        "/assets/activities/aero-india-2025/04.jpg"
-      ],
-      "modified": 1775568323796.375
-    },
-    {
-      "event": "Army Attachment Camp - 2024 (PCTC)",
-      "slug": "army-attachment-camp-2024-pctc",
-      "images": [
-        "/assets/activities/army-attachment-camp-2024-pctc/01.jpg",
-        "/assets/activities/army-attachment-camp-2024-pctc/02.jpg",
-        "/assets/activities/army-attachment-camp-2024-pctc/03.jpg"
-      ],
-      "modified": 1775568975274.03
-    },
-    {
-      "event": "Republic Day Parade 2025",
-      "slug": "republic-day-parade-2025",
-      "images": [
-        "/assets/activities/republic-day-parade-2025/01.jpg",
-        "/assets/activities/republic-day-parade-2025/02.jpg",
-        "/assets/activities/republic-day-parade-2025/03.jpg",
-        "/assets/activities/republic-day-parade-2025/04.jpg",
-        "/assets/activities/republic-day-parade-2025/05.jpg",
-        "/assets/activities/republic-day-parade-2025/06.jpg"
-      ],
-      "modified": 1775568975448.681
-    },
-    {
-      "event": "RDC 2025 - Culturals",
-      "slug": "rdc-2025-culturals",
-      "images": [
-        "/assets/activities/rdc-2025-culturals/01.jpg",
-        "/assets/activities/rdc-2025-culturals/02.jpg",
-        "/assets/activities/rdc-2025-culturals/03.jpg",
-        "/assets/activities/rdc-2025-culturals/04.jpg",
-        "/assets/activities/rdc-2025-culturals/05.jpg",
-        "/assets/activities/rdc-2025-culturals/06.jpg"
-      ],
-      "modified": 1775568975490.323
-    },
-    {
-      "event": "RDC 2025 - Idea and Innovation Competition",
-      "slug": "rdc-2025-idea-and-innovation-competition",
-      "images": [
-        "/assets/activities/rdc-2025-idea-and-innovation-competition/01.jpg",
-        "/assets/activities/rdc-2025-idea-and-innovation-competition/02.jpg",
-        "/assets/activities/rdc-2025-idea-and-innovation-competition/03.jpg",
-        "/assets/activities/rdc-2025-idea-and-innovation-competition/04.jpg",
-        "/assets/activities/rdc-2025-idea-and-innovation-competition/05.jpg",
-        "/assets/activities/rdc-2025-idea-and-innovation-competition/06.jpg"
-      ],
-      "modified": 1775568975508.239
-    },
-    {
-      "event": "DDG Commendation 2025",
-      "slug": "ddg-commendation-2025",
-      "images": [
-        "/assets/activities/ddg-commendation-2025/01.jpg",
-        "/assets/activities/ddg-commendation-2025/02.jpg",
-        "/assets/activities/ddg-commendation-2025/03.jpg",
-        "/assets/activities/ddg-commendation-2025/04.jpg",
-        "/assets/activities/ddg-commendation-2025/05.jpg"
-      ],
-      "modified": 1775568975514.2458
-    },
-    {
-      "event": "Rank Pipping Ceremony 2024",
-      "slug": "rank-pipping-ceremony-2024",
-      "images": [
-        "/assets/activities/rank-pipping-ceremony-2024/01.jpg"
-      ],
-      "modified": 1775632071506.8794
-    },
-    {
-      "event": "National Unity Day 2024",
-      "slug": "national-unity-day-2024",
-      "images": [
-        "/assets/activities/national-unity-day-2024/01.jpg",
-        "/assets/activities/national-unity-day-2024/02.jpg",
-        "/assets/activities/national-unity-day-2024/03.jpg"
-      ],
-      "modified": 1775632071576.7983
-    },
-    {
-      "event": "Blood Donation Drive 2024",
-      "slug": "blood-donation-drive-2024",
-      "images": [
-        "/assets/activities/blood-donation-drive-2024/01.jpg",
-        "/assets/activities/blood-donation-drive-2024/02.jpg",
-        "/assets/activities/blood-donation-drive-2024/03.jpg",
-        "/assets/activities/blood-donation-drive-2024/04.jpg"
-      ],
-      "modified": 1775632071628.0447
-    },
-    {
-      "event": "Enrollment 2024-25",
-      "slug": "enrollment-2024-25",
-      "images": [
-        "/assets/activities/enrollment-2024-25/01.jpg",
-        "/assets/activities/enrollment-2024-25/02.jpg",
-        "/assets/activities/enrollment-2024-25/03.jpg",
-        "/assets/activities/enrollment-2024-25/04.jpg"
-      ],
-      "modified": 1775632071702.8079
-    },
-    {
-      "event": "26-11 Event 2024",
-      "slug": "26-11-event-2024",
-      "images": [
-        "/assets/activities/26-11-event-2024/01.jpg",
-        "/assets/activities/26-11-event-2024/02.jpg",
-        "/assets/activities/26-11-event-2024/03.jpg",
-        "/assets/activities/26-11-event-2024/04.jpg",
-        "/assets/activities/26-11-event-2024/05.jpg",
-        "/assets/activities/26-11-event-2024/06.jpg"
-      ],
-      "modified": 1775632071726.202
-    },
-    {
-      "event": "SNIC, Wokha - 2024",
-      "slug": "snic-wokha-2024",
-      "images": [
-        "/assets/activities/snic-wokha-2024/01.jpg",
-        "/assets/activities/snic-wokha-2024/02.jpg",
-        "/assets/activities/snic-wokha-2024/03.jpg",
-        "/assets/activities/snic-wokha-2024/04.jpg",
-        "/assets/activities/snic-wokha-2024/05.jpg"
-      ],
-      "modified": 1775632307546.021
-    },
-    {
-      "event": "Pre IGC and IGC RDC",
-      "slug": "pre-igc-and-igc-rdc",
-      "images": [
-        "/assets/activities/pre-igc-and-igc-rdc/01.jpg",
-        "/assets/activities/pre-igc-and-igc-rdc/02.jpg",
-        "/assets/activities/pre-igc-and-igc-rdc/03.jpg",
-        "/assets/activities/pre-igc-and-igc-rdc/04.jpg",
-        "/assets/activities/pre-igc-and-igc-rdc/05.jpg",
-        "/assets/activities/pre-igc-and-igc-rdc/06.jpg",
-        "/assets/activities/pre-igc-and-igc-rdc/07.jpg"
-      ],
-      "modified": 1775632484023.025
-    },
-    {
-      "event": "All India Thal Sainik Camp - 2024",
-      "slug": "all-india-thal-sainik-camp-2024",
-      "images": [
-        "/assets/activities/all-india-thal-sainik-camp-2024/01.jpg",
-        "/assets/activities/all-india-thal-sainik-camp-2024/02.jpg",
-        "/assets/activities/all-india-thal-sainik-camp-2024/03.jpg"
-      ],
-      "modified": 1775632484062.0203
-    },
-    {
-      "event": "Kargil Vijay Diwas - 2024",
-      "slug": "kargil-vijay-diwas-2024",
-      "images": [
-        "/assets/activities/kargil-vijay-diwas-2024/01.jpg",
-        "/assets/activities/kargil-vijay-diwas-2024/02.jpg",
-        "/assets/activities/kargil-vijay-diwas-2024/03.jpg"
-      ],
-      "modified": 1775632618889.8313
-    },
-    {
-      "event": "Traffic Awareness Drive",
-      "slug": "traffic-awareness-drive",
-      "images": [
-        "/assets/activities/traffic-awareness-drive/01.jpg",
-        "/assets/activities/traffic-awareness-drive/02.jpg",
-        "/assets/activities/traffic-awareness-drive/03.jpg"
-      ],
-      "modified": 1775632618900.8357
-    },
-    {
-      "event": "Pre IGC and IGC TSC 2024",
-      "slug": "pre-igc-and-igc-tsc-2024",
-      "images": [
-        "/assets/activities/pre-igc-and-igc-tsc-2024/01.jpg",
-        "/assets/activities/pre-igc-and-igc-tsc-2024/02.jpg",
-        "/assets/activities/pre-igc-and-igc-tsc-2024/03.jpg",
-        "/assets/activities/pre-igc-and-igc-tsc-2024/04.jpg",
-        "/assets/activities/pre-igc-and-igc-tsc-2024/05.jpg",
-        "/assets/activities/pre-igc-and-igc-tsc-2024/06.jpg"
-      ],
-      "modified": 1775632618931.6956
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Activities | NCC BMSITM</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <meta name="description" content="Training, service drives, ceremonial parades, and camp activities conducted by NCC BMSITM." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=EB+Garamond:wght@500;600&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/navbar-overrides.css" />
+  <link rel="stylesheet" href="/navbar-polish.css" />
+  <link rel="stylesheet" href="/theme-overrides.css" />
+  <style id="hero-fullscreen">
+    :root { --header-h: 80px; }
+    .page-hero {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      min-height: calc(100vh - var(--header-h)) !important;
+      min-height: calc(100svh - var(--header-h)) !important;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      overflow: hidden;
     }
-  ]
-}
+    .page-hero .hero-media {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      border-radius: 0;
+      z-index: 0;
+    }
+    .page-hero .hero-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    .page-hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.15));
+      z-index: 1;
+      pointer-events: none;
+    }
+    .page-hero .container {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+    }
+    @media (max-width: 768px) {
+      :root { --header-h: 64px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="/index.html">
+        <span class="brand-logos">
+          <picture class="img-frame logo-frame">
+            <img src="/assets/logos/ncc-logo.png" alt="NCC Emblem" data-placeholder="true" loading="lazy" />
+            <div class="img-placeholder">NCC Logo</div>
+          </picture>
+          <picture class="img-frame logo-frame">
+            <img src="/assets/logos/bmsit-logo.png" alt="BMSIT Logo" data-placeholder="true" loading="lazy" />
+            <div class="img-placeholder">BMSIT Logo</div>
+          </picture>
+        </span>
+        <span class="brand-divider"></span>
+        <span class="brand-text">
+          <span class="brand-title">NCC BMSITM</span>
+          <span class="brand-subtitle">39/17 NCC Company</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-controls="primary-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="primary-nav" class="nav-links">
+        <button class="nav-close" type="button" aria-label="Close navigation">X</button>
+        <a href="/index.html">Home</a>
+        <a href="/achievements.html">Achievements</a>
+        <a href="/awards.html">Awards</a>
+        <a href="/timeline.html">Timeline</a>
+        <a class="active" href="/activities.html">Activities</a>
+        <a href="/join.html">Join NCC</a>
+        <a class="nav-link-two-line" href="/alumni.html">Alumni in<br>Forces</a>
+        <a href="/cadets-corner.html">Cadet's Corner</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <picture class="img-frame hero-media">
+        <img src="/assets/images/activities-hero.jpg" alt="Cadets in outdoor service activity" data-placeholder="true" loading="lazy" />
+        <div class="img-placeholder">ACTIVITIES_HERO_IMAGE_PLACEHOLDER</div>
+      </picture>
+      <div class="container">
+        <p class="breadcrumb">Home &gt; Activities</p>
+        <h1>Activities</h1>
+        <p class="section-subtitle" style="color: rgba(255, 255, 255, 0.75); text-align: left; margin: 12px 0 0;">Training &middot; Service &middot; Ceremony &middot; Outreach</p>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container">
+        <div class="section-header-row">
+          <div>
+            <span class="section-eyebrow">Activity Posts</span>
+            <h2 class="section-title" style="text-align: left; margin-bottom: 6px;">Recent Activities (Last 1 Year)</h2>
+          </div>
+          <span class="mono" style="color: var(--ncc-text-light);">Last 1 year &middot; Tap any post to view all photos.</span>
+        </div>
+        <div class="activities-grid" data-activities-feed></div>
+      </div>
+    </section>
+
+    <section class="section section--cream">
+      <div class="container">
+        <h2 class="heading-serif">March 2025 &ndash; March 2026 &middot; Full Chronology</h2>
+        <div class="rule" style="margin-left: 0;"></div>
+        <div class="chrono">
+          <div class="chrono-item">
+            <h4 class="mono">Mar 2025</h4>
+            <p>Pre-camp training and selection drills.</p>
+          </div>
+          <div class="chrono-item">
+            <h4 class="mono">May 2025</h4>
+            <p>DG interaction and unit skill evaluation.</p>
+          </div>
+          <div class="chrono-item">
+            <h4 class="mono">Jul 2025</h4>
+            <p>CATC-II camp with cultural, debate, and GoH awards.</p>
+          </div>
+          <div class="chrono-item">
+            <h4 class="mono">Sep 2025</h4>
+            <p>AITSC 2025 participation and Map Reading podium finishes.</p>
+          </div>
+          <div class="chrono-item">
+            <h4 class="mono">Oct 2025</h4>
+            <p>Para Basic Course and national camp selections.</p>
+          </div>
+          <div class="chrono-item">
+            <h4 class="mono">Nov 2025</h4>
+            <p>Blood Donation Drive and 26/11 Candle Light March.</p>
+          </div>
+          <div class="chrono-item">
+            <h4 class="mono">Jan 2026</h4>
+            <p>Republic Day 2026 ceremony with full unit turnout.</p>
+          </div>
+          <div class="chrono-item">
+            <h4 class="mono">Feb 2026</h4>
+            <p>Annual Review / GC Visit and commendation ceremonies.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="lightbox" aria-hidden="true">
+    <div class="lightbox-content">
+      <button class="lightbox-close" type="button" aria-label="Close">X</button>
+      <button class="lightbox-prev" type="button" aria-label="Previous"><</button>
+      <img class="lightbox-image" src="" alt="Expanded gallery" />
+      <button class="lightbox-next" type="button" aria-label="Next">></button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand" style="color: var(--ncc-white);">
+          <span class="brand-logos">
+            <picture class="img-frame logo-frame">
+            <img src="/assets/logos/ncc-logo.png" alt="NCC Emblem" data-placeholder="true" loading="lazy" />
+              <div class="img-placeholder">NCC Logo</div>
+            </picture>
+            <picture class="img-frame logo-frame">
+            <img src="/assets/logos/bmsit-logo.png" alt="BMSIT Logo" data-placeholder="true" loading="lazy" />
+              <div class="img-placeholder">BMSIT Logo</div>
+            </picture>
+          </span>
+          <span class="brand-text">
+            <span class="brand-title">NCC BMSITM</span>
+            <span class="brand-subtitle">Unity and Discipline</span>
+          </span>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <div class="footer-links">
+          <a href="/index.html">Home</a>
+          <a href="/achievements.html">Achievements</a>
+          <a href="/awards.html">Awards</a>
+          <a href="/timeline.html">Timeline</a>
+          <a href="/activities.html">Activities</a>
+          <a href="/join.html">Join NCC</a>
+          <a href="/alumni.html">Alumni in<br>Forces</a>
+          <a href="/cadets-corner.html">Cadet's Corner</a>
+          <a href="/contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>ncc@bmsit.in</p>
+        <p>nccbmsit@gmail.com</p>
+        <p>BMS Institute of Technology and Management, Avalahalli, Yelahanka, Bengaluru 560119</p>
+        <p><a href="https://www.instagram.com/nccbmsit/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+        <p><a href="https://linktr.ee/nccbmsit" target="_blank" rel="noopener noreferrer">Linktree</a></p>
+        <p><a href="https://www.linkedin.com/company/ncc-bmsitm16/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2025-26 NCC BMSITM &middot; 39/17 NCC Company &middot; 39 Karnataka Battalion</div>
+  </footer>
+
+  <button class="scroll-top" type="button" aria-label="Scroll to top">&uarr;</button>
+  <script defer src="/main.js"></script>
+</body>
+</html>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alumni | NCC BMSITM</title>
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <title>Alumni in Forces | NCC BMSITM</title>
+  <link rel="icon" type="image/jpeg" href="/assets/images/favicon.jpeg">
   <meta name="description" content="Alumni of NCC BMSITM serving in the Armed Forces and notable cadet achievements." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,6 +13,52 @@
   <link rel="stylesheet" href="/css/navbar-overrides.css" />
   <link rel="stylesheet" href="/navbar-polish.css" />
   <link rel="stylesheet" href="/theme-overrides.css" />
+  <style id="hero-fullscreen">
+    :root { --header-h: 80px; }
+    .page-hero {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      min-height: calc(100vh - var(--header-h)) !important;
+      min-height: calc(100svh - var(--header-h)) !important;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      overflow: hidden;
+    }
+    .page-hero .hero-media {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      border-radius: 0;
+      z-index: 0;
+    }
+    .page-hero .hero-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    .page-hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.15));
+      z-index: 1;
+      pointer-events: none;
+    }
+    .page-hero .container {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+    }
+    @media (max-width: 768px) {
+      :root { --header-h: 64px; }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -49,7 +95,7 @@
         <a href="/timeline.html">Timeline</a>
         <a href="/activities.html">Activities</a>
         <a href="/join.html">Join NCC</a>
-        <a class="nav-link-two-line" href="/alumni.html">Alumni in<br>Forces</a>
+        <a class="nav-link-two-line active" href="/alumni.html">Alumni in<br>Forces</a>
         <a href="/cadets-corner.html">Cadet's Corner</a>
         <a href="/contact.html">Contact</a>
       </nav>
@@ -63,8 +109,8 @@
         <div class="img-placeholder">ALUMNI_HERO_IMAGE_PLACEHOLDER</div>
       </picture>
       <div class="container">
-        <p class="breadcrumb">Home &gt; Alumni</p>
-        <h1>Alumni</h1>
+        <p class="breadcrumb">Home &gt; Alumni in Forces</p>
+        <h1>Alumni in Forces</h1>
         <p class="section-subtitle" style="color: rgba(255, 255, 255, 0.75); text-align: left; margin: 12px 0 0;">From BMSITM to the nation.</p>
       </div>
     </section>
@@ -74,44 +120,62 @@
         <h2 class="heading-serif">Armed Forces Alumni</h2>
         <div class="rule" style="margin-left: 0;"></div>
         <p>NCC BMSITM has built a pipeline of cadets who have gone on to serve in the Armed Forces. This section is maintained as a growing record of their service.</p>
-        <div class="event-grid" style="margin-top: 24px;">
-          <div class="card reveal" style="text-align: center;">
+        
+        <div class="event-grid" style="margin-top: 24px; display: flex; flex-wrap: wrap; justify-content: center; gap: 24px;">
+          <div class="card reveal" style="text-align: center; flex: 1 1 260px; max-width: 320px;">
             <picture class="img-frame avatar" style="width: 140px; height: 140px; margin: 0 auto 16px; border-radius: 50%;">
               <img src="/assets/images/alumni/JUO Nikhil R.jpeg" alt="JUO Nikhil R" data-placeholder="true" loading="lazy" />
               <div class="img-placeholder">JUO Nikhil R</div>
             </picture>
             <h3>JUO Nikhil R</h3>
-            <p class="mono">Indian Air Force</p>
+            <p >Indian Air Force</p>
             <p>AFCAT Entry, Flying Branch</p>
           </div>
-          <div class="card reveal" style="text-align: center;">
+          <div class="card reveal" style="text-align: center; flex: 1 1 260px; max-width: 320px;">
             <picture class="img-frame avatar" style="width: 140px; height: 140px; margin: 0 auto 16px; border-radius: 50%;">
               <img src="/assets/images/alumni/JUO Hari.jpeg" alt="JUO S R Hari Kumar" data-placeholder="true" loading="lazy" />
               <div class="img-placeholder">JUO S R Hari Kumar</div>
             </picture>
             <h3>JUO S R Hari Kumar</h3>
-            <p class="mono">Indian Army</p>
+            <p>Indian Army</p>
             <p>SSC Tech-M, OTA Gaya</p>
           </div>
-          <div class="card reveal" style="text-align: center;">
+          <div class="card reveal" style="text-align: center; flex: 1 1 260px; max-width: 320px;">
             <picture class="img-frame avatar" style="width: 140px; height: 140px; margin: 0 auto 16px; border-radius: 50%;">
               <img src="/assets/images/alumni/CSM Ullas B K.jpeg" alt="CSM Ullas B K" data-placeholder="true" loading="lazy" />
               <div class="img-placeholder">CSM Ullas B K</div>
             </picture>
             <h3>CSM Ullas B K</h3>
-            <p class="mono">Indian Navy</p>
+            <p >Indian Navy</p>
             <p>SSC Executive, INA Ezhimala</p>
           </div>
-          <div class="card reveal" style="text-align: center;">
+          <div class="card reveal" style="text-align: center; flex: 1 1 260px; max-width: 320px;">
             <picture class="img-frame avatar" style="width: 140px; height: 140px; margin: 0 auto 16px; border-radius: 50%;">
               <img src="/assets/images/alumni/JUO Rahul Shinde.jpeg" alt="JUO Rahul Shinde" data-placeholder="true" loading="lazy" />
               <div class="img-placeholder">JUO Rahul Shinde</div>
             </picture>
             <h3>JUO Rahul Shinde</h3>
-            <p class="mono">Indian Air Force</p>
+            <p >Indian Air Force</p>
             <p>AFCAT 1 2025, AE(L) Technical Officer</p>
           </div>
+          <div class="card reveal" style="text-align: center; flex: 1 1 260px; max-width: 320px;">
+            <picture class="img-frame avatar" style="width: 140px; height: 140px; margin: 0 auto 16px; border-radius: 50%;">
+              <img src="/assets/images/alumni/shriharsha.png" alt="BSGT. Shriharsha Prasad S" loading="lazy" />
+            </picture>
+            <h3>BSGT. Shriharsha Prasad S</h3>
+            <p >Indian Navy</p>
+            <p>SSC General Service (Engineering)</p>
+          </div>
+          <div class="card reveal" style="text-align: center; flex: 1 1 260px; max-width: 320px;">
+            <picture class="img-frame avatar" style="width: 140px; height: 140px; margin: 0 auto 16px; border-radius: 50%;">
+              <img src="/assets/images/alumni/pooja.png" alt="CSUO. Pooja P" loading="lazy" />
+            </picture>
+            <h3>CSUO. Pooja P</h3>
+            <p >Indian Army</p>
+            <p>SSC Technical (Women) 67th Course</p>
+          </div>
         </div>
+
         <p style="margin-top: 20px;">This record is being actively expanded. If you are an NCC BMSITM alumnus in service or preparing to join, please contact the ANO or write to <strong>ncc@bmsit.in</strong> / <strong>nccbmsit@gmail.com</strong>.</p>
       </div>
     </section>
@@ -155,7 +219,7 @@
           <a href="/timeline.html">Timeline</a>
           <a href="/activities.html">Activities</a>
           <a href="/join.html">Join NCC</a>
-          <a href="/alumni.html">Alumni</a>
+          <a href="/alumni.html">Alumni in Forces</a>
           <a href="/cadets-corner.html">Cadet's Corner</a>
           <a href="/contact.html">Contact</a>
         </div>
